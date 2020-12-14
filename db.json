@@ -1,11 +1,190 @@
 {
-  "posts": [
+  "avatarData": {
+    "userAvatarPath": "assets/img/shouting-man.jpg",
+    "userFirstName": "John",
+    "userLastname": "Doe"
+  },
+  "sideNavData": [
     {
-      "id": 1,
-      "title": "hello"
+      "text": "About",
+      "link": "home#about",
+      "iconClass": "fa-user"
+    },
+    {
+      "text": "Education",
+      "link": "home#education",
+      "iconClass": "fa-graduation-cap"
+    },
+    {
+      "text": "Experience",
+      "link": "home#experience",
+      "iconClass": "fa-pencil-alt"
+    },
+    {
+      "text": "Skills",
+      "link": "home#skills",
+      "iconClass": "fa-gem"
+    },
+    {
+      "text": "Portfolio",
+      "link": "home#portfolio",
+      "iconClass": "fa-suitcase"
+    },
+    {
+      "text": "Contacts",
+      "link": "home#contacts",
+      "iconClass": "fa-location-arrow"
+    },
+    {
+      "text": "Feedbacks",
+      "link": "home#feedbacks",
+      "iconClass": "fa-comment"
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "textBlockData": {
+    "textBlockTitle": "About",
+    "textBlockDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  "experienceData": [
+    {
+      "companyName": "Google",
+      "year": "2013 - 2014",
+      "role": "Front-end developer / php programmer",
+      "roleDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "companyName": "Twitter",
+      "year": "2012",
+      "role": "Web developer",
+      "roleDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    }
+  ],
+  "educationData": [
+    {
+      "year": 2000,
+      "title": "Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "year": 2011,
+      "title": "Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "year": 2014,
+      "title": "Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "year": 2016,
+      "title": "Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+      "year": 2016,
+      "title": "Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    }
+  ],
+  "contactsData": [
+    {
+      "iconClass": "fas fa-phone-alt",
+      "contactLink": "tel:500-345-242",
+      "contactText": "500 345 242"
+    },
+    {
+      "iconClass": "fas fa-envelope",
+      "contactLink": "mailto:office@kamsolutions.pl",
+      "contactText": "office@kamsolutions.pl"
+    },
+    {
+      "iconClass": "fab fa-twitter",
+      "contactTitle": "Twitter",
+      "contactLink": "https://twitter.com/WordPress",
+      "contactText": "https://twitter.com/WordPress"
+    },
+    {
+      "iconClass": "fab fa-facebook-f",
+      "contactTitle": "Facebook",
+      "contactLink": "https://www.facebook.com/facebook",
+      "contactText": "https://www.facebook.com/facebook"
+    },
+    {
+      "iconClass": "fab fa-skype",
+      "contactTitle": "Skype",
+      "contactLink": "skype:kamsolutions.pl?chat",
+      "contactText": "kamsolutions.pl"
+    }
+  ],
+  "feedbackData": [
+    {
+      "comment": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life one day however a small line of blind text by the name of Lorem Ipsum decided to leave.",
+      "avatarPath": "assets/img/feedback-avatar.jpg",
+      "firstName": "Martin",
+      "lastName": "Friman",
+      "jobTitle": "Programmer",
+      "companySite": "somesite.com",
+      "companySiteLink": "http://ww12.somesite.com/"
+    },
+    {
+      "comment": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life one day however a small line of blind text by the name of Lorem Ipsum decided to leave.",
+      "avatarPath": "assets/img/feedback-avatar.jpg",
+      "firstName": "Martin",
+      "lastName": "Friman",
+      "jobTitle": "Programmer",
+      "companySite": "somesite.com",
+      "companySiteLink": "http://ww12.somesite.com/"
+    },
+    {
+      "comment": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life one day however a small line of blind text by the name of Lorem Ipsum decided to leave.",
+      "avatarPath": "assets/img/feedback-avatar.jpg",
+      "firstName": "Martin",
+      "lastName": "Friman",
+      "jobTitle": "Programmer",
+      "companySite": "somesite.com",
+      "companySiteLink": "http://ww12.somesite.com/"
+    }
+  ],
+  "skillsData": {
+    "skillsItems": [
+      {
+        "skillName": "HTML",
+        "skillMeasure": "100%"
+      },
+      {
+        "skillName": "CSS",
+        "skillMeasure": "65%"
+      },
+      {
+        "skillName": "jQuery",
+        "skillMeasure": "55%"
+      },
+      {
+        "skillName": "PHP",
+        "skillMeasure": "35%"
+      },
+      {
+        "skillName": "Drupal",
+        "skillMeasure": "20%"
+      }
+    ],
+    "skillsMeasures": [
+      {
+        "skillClass": "beginner",
+        "skillText": "Beginner"
+      },
+      {
+        "skillClass": "proficient",
+        "skillText": "Proficient"
+      },
+      {
+        "skillClass": "expert",
+        "skillText": "Expert"
+      },
+      {
+        "skillClass": "master",
+        "skillText": "Master"
+      }
+    ]
   }
 }
