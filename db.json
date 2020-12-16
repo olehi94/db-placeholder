@@ -73,48 +73,27 @@
       "contactText": "kamsolutions.pl"
     }
   ],
-  "skillsData": {
-    "skillsItems": [
-      {
-        "skillName": "HTML",
-        "skillMeasure": "100%"
-      },
-      {
-        "skillName": "CSS",
-        "skillMeasure": "65%"
-      },
-      {
-        "skillName": "jQuery",
-        "skillMeasure": "55%"
-      },
-      {
-        "skillName": "PHP",
-        "skillMeasure": "35%"
-      },
-      {
-        "skillName": "Drupal",
-        "skillMeasure": "20%"
-      }
-    ],
-    "skillsMeasures": [
-      {
-        "skillClass": "beginner",
-        "skillText": "Beginner"
-      },
-      {
-        "skillClass": "proficient",
-        "skillText": "Proficient"
-      },
-      {
-        "skillClass": "expert",
-        "skillText": "Expert"
-      },
-      {
-        "skillClass": "master",
-        "skillText": "Master"
-      }
-    ]
-  }
+  "skills": [
+    {
+      "skill": "HTML",
+      "level": "100%"
+    },
+    {
+      "skill": "CSS",
+      "level": "65%"
+    },
+    {
+      "skill": "jQuery",
+      "level": "55%"
+    },
+    {
+      "skill": "PHP",
+      "level": "35%"
+    },
+    {
+      "skill": "Drupal",
+      "level": "20%"
+    }
+  ]
+
 }
-
-
