@@ -76,23 +76,23 @@
   "skills": [
     {
       "skill": "HTML",
-      "level": "100%"
+      "level": "master"
     },
     {
       "skill": "CSS",
-      "level": "65%"
+      "level": "master"
     },
     {
       "skill": "jQuery",
-      "level": "55%"
+      "level": "expert"
     },
     {
       "skill": "PHP",
-      "level": "35%"
+      "level": "proficient"
     },
     {
       "skill": "Drupal",
-      "level": "20%"
+      "level": "beginner"
     }
   ]
 
