@@ -46,13 +46,11 @@
   "contacts": [
     {
       "iconName": "fas fa-phone-alt",
-      "title": null,
       "value": "500 345 242",
       "link": "tel:500-345-242"
     },
     {
       "iconName": "fas fa-envelope",
-      "title": null,
       "value": "office@kamsolutions.pl",
       "link": "mailto:office@kamsolutions.pl"
     },
