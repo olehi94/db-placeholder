@@ -43,34 +43,34 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     }
   ],
-  "contactsData": [
+  "contacts": [
     {
-      "iconClass": "fas fa-phone-alt",
-      "contactLink": "tel:500-345-242",
-      "contactText": "500 345 242"
+      "iconName": "fas fa-phone-alt",
+      "value": "500 345 242",
+      "link": "tel:500-345-242"
     },
     {
-      "iconClass": "fas fa-envelope",
-      "contactLink": "mailto:office@kamsolutions.pl",
-      "contactText": "office@kamsolutions.pl"
+      "iconName": "fas fa-envelope",
+      "value": "office@kamsolutions.pl",
+      "link": "mailto:office@kamsolutions.pl"
     },
     {
-      "iconClass": "fab fa-twitter",
-      "contactTitle": "Twitter",
-      "contactLink": "https://twitter.com/WordPress",
-      "contactText": "https://twitter.com/WordPress"
+      "iconName": "fab fa-twitter",
+      "title": "Twitter",
+      "value": "https://twitter.com/WordPress",
+      "link": "https://twitter.com/WordPress"
     },
     {
-      "iconClass": "fab fa-facebook-f",
-      "contactTitle": "Facebook",
-      "contactLink": "https://www.facebook.com/facebook",
-      "contactText": "https://www.facebook.com/facebook"
+      "iconName": "fab fa-facebook-f",
+      "title": "Facebook",
+      "value": "https://www.facebook.com/facebook",
+      "link": "https://www.facebook.com/facebook"
     },
     {
-      "iconClass": "fab fa-skype",
-      "contactTitle": "Skype",
-      "contactLink": "skype:kamsolutions.pl?chat",
-      "contactText": "kamsolutions.pl"
+      "iconName": "fab fa-skype",
+      "title": "Skype",
+      "value": "kamsolutions.pl",
+      "link": "skype:kamsolutions.pl?chat"
     }
   ],
   "skills": [
